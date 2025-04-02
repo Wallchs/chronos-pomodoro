@@ -1,17 +1,15 @@
-import './styles/App.css'
-import { Heading } from './components/Heading.tsx'
+import './styles/App.css';
+import { Heading } from './components/Heading.tsx';
 function App() {
 
   return (
     <>
-      <Heading />     
+      <Heading />
       <div >
-        <button>
-          <p>um novo texto aqui!</p>
-        </button>
+        <p className='grid justify-items-center '>um novo texto aqui!</p>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
