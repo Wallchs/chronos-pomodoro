@@ -1,3 +1,5 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
 :root {
   --gray-100: #e6e9f0;
   --gray-200: #cdd3 --gray-300: #aab3cc;
