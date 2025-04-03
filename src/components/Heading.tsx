@@ -1,10 +1,9 @@
-import "../styles/heading.css";
 import "../styles/theme.css";
 export function Heading() {
 
-  return (
+    return (
     <>
-      <p> Aqui está o Heading</p>
+      <h1 className='txt-9xl'>Aqui o Heading</h1>
       
     </>
   );

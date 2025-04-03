@@ -1,4 +1,3 @@
-import './styles/App.css';
 import { Heading } from './components/Heading.tsx';
 function App() {
 
