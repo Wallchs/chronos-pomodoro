@@ -1,4 +1,5 @@
 import "../styles/heading.css";
+import "../styles/theme.css";
 export function Heading() {
 
   return (
