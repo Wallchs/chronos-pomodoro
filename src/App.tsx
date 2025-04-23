@@ -10,6 +10,7 @@ function App() {
 			</Heading>
 			<div className="is-flex is-justify-content-center">
 				<p>um novo texto aqui!</p>
+                <p>teste, testando</p>
 			</div>
 		</>
 	);
