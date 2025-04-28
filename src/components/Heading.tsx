@@ -9,7 +9,7 @@ export function Heading({ children }: HeadingProps) {
 
   return (
     <>
-      <h1 className="is-flex is-justify-content-center is-align-content-center columuns is-3">{children}</h1>
+     <h1 className="is-flex is-justify-content-center is-align-content-center p-3">{children}</h1>
 
     </>
   );
