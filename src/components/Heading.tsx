@@ -10,7 +10,7 @@ export function Heading({ children }: HeadingProps) {
   return (
     <>
       <br />
-      <h1 className="container">{children}</h1>
+      <div className="container">{children}</div>
 
     </>
   );

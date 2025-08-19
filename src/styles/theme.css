@@ -39,10 +39,28 @@
   --text-disabled: #aab3cc;
 }
 
+.logo svg {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.4rem;
-    background-color: red;
+  color: var(--link-color);
+}
+
+.logo:hover {
+  color: var(--primary-dark);
+}
+
+.menu-link:hover {
+  filter: brightness(80%);
+
+}
+
+.menu-link {
+  color: var(--text-over-primary);
+  background: var(--primary-light);
+  padding: 1.2rem;
+  transition: all 0.1s ease-in-out;
+  border-radius: 0.8rem;
 }
