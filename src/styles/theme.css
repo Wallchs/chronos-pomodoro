@@ -64,3 +64,9 @@
   transition: all 0.1s ease-in-out;
   border-radius: 0.8rem;
 }
+
+.relogio {
+  font-size: clamp(8rem, 25vw, 16rem);
+  text-align: center;
+
+}
