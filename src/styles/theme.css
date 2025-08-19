@@ -38,3 +38,11 @@
   --disabled: #555f7d;
   --text-disabled: #aab3cc;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    background-color: red;
+}

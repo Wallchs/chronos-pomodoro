@@ -1,17 +1,11 @@
-import { TimerIcon } from "lucide-react";
 import { Heading } from "./components/Heading.tsx";
+import { Logo } from "./components/logo.tsx";
 function App() {
 	return (
 		<>
 			<Heading>
-				<button className="p-auto m-auto">
-					<TimerIcon />
-				</button>
+				<Logo></Logo>
 			</Heading>
-			<div className="is-flex is-justify-content-center">
-				<p>um novo texto aqui!</p>
-                <h2> teste!!</h2>
-			</div>
 		</>
 	);
 }
