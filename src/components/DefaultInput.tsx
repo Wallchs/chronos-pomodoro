@@ -2,14 +2,16 @@ import "../styles/theme.css";
 
 type DefaultInputProps = {
   id: string;
+  // esta opção pode ser opcional
+  labelText?: string;
 } & React.ComponentProps<'input'>;
 
 
-export function DefaultInput({ id, type }: DefaultInputProps) {
+export function DefaultInput({ id, type, labelText, ...rest }: DefaultInputProps) {
   return (
     <>
-      <label className="label has-text-centered" htmlFor="{id}">Tarefa</label>
-      <input type={type} id={id} />
+      {labelText && <label className="label has-text-centered" htmlFor="{id}">{labelText}</label>}
+      <input type={type} id={id} {...rest} className="input" />
     </>
   );
 }

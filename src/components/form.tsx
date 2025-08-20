@@ -4,7 +4,7 @@ import { DefaultInput } from "./DefaultInput";
 export function Form() {
   return (
     <div className="field is-flex is-flex-direction-column is-justify-content-center is-align-items-center is-gap-1">
-      <DefaultInput type="text" id="meuInput" />
+      <DefaultInput labelText="Task" type="text" id="meuInput" placeholder="Digite algo" />
 
 
       <div className="is-flex is-flex-direction-column is-justify-content-center is-align-items-center is-gap-1">
