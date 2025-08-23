@@ -1,4 +1,5 @@
 import "../styles/theme.css";
+import { Cycles } from "./cycles.tsx";
 import { DefaultInput } from "./DefaultInput";
 
 export function Form() {
@@ -13,8 +14,7 @@ export function Form() {
       </div>
 
       <div className="is-flex is-flex-direction-column is-justify-content-center is-align-items-center is-gap-1">
-        <p>Ciclos</p>
-        <p>0 0 0 0 0 0 0</p>
+        <Cycles />
       </div>
 
       <div className="is-flex is-flex-direction-column is-justify-content-center is-align-items-center is-gap-1">
